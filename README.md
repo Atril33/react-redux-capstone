@@ -1,4 +1,5 @@
 <div align="center"><h1>REACT CAPSTONE</h1></div>
+<img src="https://github.com/Atril33/react-redux-capstone/blob/dev/my%20project%20preview.png"></img>
 <!--
 HOW TO USE :
 This is an example of how you may give instructions on setting up your project locally.
