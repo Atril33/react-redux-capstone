@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
-import Homepage from './components/HomePage'
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
+import Homepage from './components/HomePage';
 import { countryItems } from './Redux/country/countrySlice';
 import DatilePage from './components/DatilePage';
 
@@ -10,17 +10,17 @@ function App() {
 
   useEffect(() => {
     dispatch(countryItems());
-  }, [dispatch]) 
+  }, [dispatch]);
 
   return (
     <>
       <Routes>
-        <Route path='/' element={<Homepage />} />
+        <Route path="/" element={<Homepage />} />
         <Route path="/countries/:fName" element={<DatilePage />} />
       </Routes>
-      
+
     </>
-  )
+  );
 }
 
 export default App;
