@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Homepage /> Should renders correctly 1`] = `
+Array [
+  <div
+    className="top-header"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Back Icon"
+        className="back-img"
+        src="back.png"
+      />
+    </a>
+    <h1>
+      Countries
+    </h1>
+    <div
+      className="right-icon"
+    >
+      <img
+        alt="Microphone icon"
+        src="microphone.png"
+      />
+      <img
+        alt="Setting icon"
+        className="setting-img"
+        src="setting.png"
+      />
+    </div>
+  </div>,
+  <div
+    className="search-cont"
+  >
+    <input
+      className="search-input"
+      onChange={[Function]}
+      placeholder="🔍 Search Country Here"
+      type="text"
+      value=""
+    />
+  </div>,
+  <div
+    className="container"
+  >
+    <a
+      href="/countries/Test Country 1"
+      onClick={[Function]}
+    >
+      <img
+        alt="Test Country 1"
+        className="flat-img"
+        src="https://test-country-1-flag.png"
+      />
+    </a>
+    <a
+      href="/countries/Test Country 2"
+      onClick={[Function]}
+    >
+      <img
+        alt="Test Country 2"
+        className="flat-img"
+        src="https://test-country-2-flag.png"
+      />
+    </a>
+    <a
+      href="/countries/Test Country 3"
+      onClick={[Function]}
+    >
+      <img
+        alt="Test Country 3"
+        className="flat-img"
+        src="https://test-country-3-flag.png"
+      />
+    </a>
+  </div>,
+]
+`;
+
+exports[`<Homepage /> renders correctly 1`] = `
+Array [
+  <div
+    className="top-header"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <img
+        alt="Back Icon"
+        className="back-img"
+        src="back.png"
+      />
+    </a>
+    <h1>
+      Countries
+    </h1>
+    <div
+      className="right-icon"
+    >
+      <img
+        alt="Microphone icon"
+        src="microphone.png"
+      />
+      <img
+        alt="Setting icon"
+        className="setting-img"
+        src="setting.png"
+      />
+    </div>
+  </div>,
+  <div
+    className="search-cont"
+  >
+    <input
+      className="search-input"
+      onChange={[Function]}
+      placeholder="🔍 Search Country Here"
+      type="text"
+      value=""
+    />
+  </div>,
+  <div
+    className="container"
+  >
+    <a
+      href="/countries/Test Country 1"
+      onClick={[Function]}
+    >
+      <img
+        alt="Test Country 1"
+        className="flat-img"
+        src="https://test-country-1-flag.png"
+      />
+    </a>
+    <a
+      href="/countries/Test Country 2"
+      onClick={[Function]}
+    >
+      <img
+        alt="Test Country 2"
+        className="flat-img"
+        src="https://test-country-2-flag.png"
+      />
+    </a>
+    <a
+      href="/countries/Test Country 3"
+      onClick={[Function]}
+    >
+      <img
+        alt="Test Country 3"
+        className="flat-img"
+        src="https://test-country-3-flag.png"
+      />
+    </a>
+  </div>,
+]
+`;
