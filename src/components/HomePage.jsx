@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import NavBar from './NavBar';
 import './Style/Style.css';
+import countryMap from './images/background.png';
+import bannarImage from './images/banar-img.jpg';
 
 const Homepage = () => {
   const { countryData } = useSelector((store) => store.country);
@@ -21,12 +23,17 @@ const Homepage = () => {
     <>
       <NavBar />
       <div className="search-cont">
-        <input type="text" value={searchCountry} onChange={handleCountry} placeholder="&#x1F50D; Search Country Here" className="search-input" />
+        <img src={bannarImage} alt="World Map" className="world-img" />
       </div>
+      <input type="text" value={searchCountry} onChange={handleCountry} placeholder="&#x1F50D; Search Country Here" className="search-input" />
       <div className="container">
         {filteredData.map((item) => (
-          <Link to={`/countries/${item.name}`} key={item.name}>
-            <img src={item.flag} alt={item.name} className="flat-img" />
+          <Link to={`/countries/${item.name}`} key={item.name} className="small-container">
+            <img src={countryMap} alt={item.name} className="country-map" />
+            <div className="country-info">
+              <h2 className="country-name">{item.name}</h2>
+              <h2 className="country-population">{item.population}</h2>
+            </div>
           </Link>
 
         ))}
