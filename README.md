@@ -75,7 +75,7 @@ After you're finished please remove all the comments and instructions!
 - **[Styling css with colors, borders, paddings, margins & sizes, etc]**
 _ **[React, Redux & javascript functions, modules, ES6 syntax, variables, React testing, etc]**
 
-## 🚀 Live Demo <a href="https://react-redux-capstone-c21qdlkok-atril33.vercel.app/">Live Link</a>
+## 🚀 Live Demo <a href="https://react-redux-capstone-q0vaxnxec-atril33.vercel.app/">Live Link</a>
 
 <!-- GETTING STARTED -->
 <!-- AUTHORS -->
