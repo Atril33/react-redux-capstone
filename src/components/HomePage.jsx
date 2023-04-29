@@ -26,6 +26,7 @@ const Homepage = () => {
         <img src={bannarImage} alt="World Map" className="world-img" />
       </div>
       <input type="text" value={searchCountry} onChange={handleCountry} placeholder="&#x1F50D; Search Country Here" className="search-input" />
+      <div className="status-bar"><h2 className="country-status">Stats by Country</h2></div>
       <div className="container">
         {filteredData.map((item) => (
           <Link to={`/countries/${item.name}`} key={item.name} className="small-container">

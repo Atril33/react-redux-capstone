@@ -1,5 +1,4 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-/* import data from "../../components/data"; */
 
 const url = 'https://restcountries.com/v3.1/all';
 

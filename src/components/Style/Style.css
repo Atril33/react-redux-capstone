@@ -154,6 +154,22 @@ span {
   background: #087591;
 }
 
+.status-bar {
+  width: 100%;
+  height: auto;
+  padding: 8px 0;
+  background: #087591;
+  margin-bottom: 2px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.country-status {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     grid-template-columns: auto auto;

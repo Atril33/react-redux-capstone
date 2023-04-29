@@ -16,6 +16,7 @@ const DatilePage = () => {
           <h1 className="heading-text">{uniqueName.name ? uniqueName.name : 'none'}</h1>
           <img src={uniqueName.flag} alt={uniqueName.name} className="flag-img" />
         </div>
+        <div className="status-bar"><h2 className="country-status">City/Town BreakDown - 2023</h2></div>
         <h2 className="item-info">
           <span>Name:</span>
           {uniqueName.name ? uniqueName.name : 'none'}
